@@ -45,9 +45,9 @@ protocol CarBelonging{                    // объявляем протокол
     func drive(_ text: String)
 }
 class tunkcar{
-    var CarBelonging:CarBelonging?   // объявляем свойство руки держать принадлежность
-    func drive(_ text: String) {          // говорим руке писать
-        CarBelonging?.drive(text) // и она уже пишет принадлежностью
+    var CarBelonging:CarBelonging?   
+    func drive(_ text: String) {
+        CarBelonging?.drive(text)
     }
 }
 class RedSportcar{

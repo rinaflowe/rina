@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA357CF32534912B0010F2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA357CF22534912B0010F2F4 /* AppDelegate.swift */; };
+		FA357CF52534912B0010F2F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA357CF42534912B0010F2F4 /* SceneDelegate.swift */; };
+		FA357CF72534912B0010F2F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA357CF62534912B0010F2F4 /* ViewController.swift */; };
+		FA357CFA2534912B0010F2F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA357CF82534912B0010F2F4 /* Main.storyboard */; };
+		FA357CFC2534912F0010F2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA357CFB2534912F0010F2F4 /* Assets.xcassets */; };
+		FA357CFF2534912F0010F2F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA357CFD2534912F0010F2F4 /* LaunchScreen.storyboard */; };
+		FA357D0A253491300010F2F4 /* VK_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA357D09253491300010F2F4 /* VK_clientTests.swift */; };
+		FA357D15253491300010F2F4 /* VK_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA357D14253491300010F2F4 /* VK_clientUITests.swift */; };
+		FA357D24253492960010F2F4 /* LoginFormControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA357D23253492960010F2F4 /* LoginFormControllerViewController.swift */; };
+		FA357D26253585310010F2F4 /* vk.png in Resources */ = {isa = PBXBuildFile; fileRef = FA357D25253585310010F2F4 /* vk.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA357D06253491300010F2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA357CE72534912B0010F2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA357CEE2534912B0010F2F4;
+			remoteInfo = VK_client;
+		};
+		FA357D11253491300010F2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA357CE72534912B0010F2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA357CEE2534912B0010F2F4;
+			remoteInfo = VK_client;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA357CEF2534912B0010F2F4 /* VK_client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK_client.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA357CF22534912B0010F2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA357CF42534912B0010F2F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA357CF62534912B0010F2F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA357CF92534912B0010F2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA357CFB2534912F0010F2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA357CFE2534912F0010F2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA357D002534912F0010F2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA357D05253491300010F2F4 /* VK_clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VK_clientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA357D09253491300010F2F4 /* VK_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_clientTests.swift; sourceTree = "<group>"; };
+		FA357D0B253491300010F2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA357D10253491300010F2F4 /* VK_clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VK_clientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA357D14253491300010F2F4 /* VK_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_clientUITests.swift; sourceTree = "<group>"; };
+		FA357D16253491300010F2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA357D23253492960010F2F4 /* LoginFormControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormControllerViewController.swift; sourceTree = "<group>"; };
+		FA357D25253585310010F2F4 /* vk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vk.png; path = ../../../../../Downloads/vk.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA357CEC2534912B0010F2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA357D02253491300010F2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA357D0D253491300010F2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA357CE62534912B0010F2F4 = {
+			isa = PBXGroup;
+			children = (
+				FA357CF12534912B0010F2F4 /* VK_client */,
+				FA357D08253491300010F2F4 /* VK_clientTests */,
+				FA357D13253491300010F2F4 /* VK_clientUITests */,
+				FA357CF02534912B0010F2F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA357CF02534912B0010F2F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA357CEF2534912B0010F2F4 /* VK_client.app */,
+				FA357D05253491300010F2F4 /* VK_clientTests.xctest */,
+				FA357D10253491300010F2F4 /* VK_clientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA357CF12534912B0010F2F4 /* VK_client */ = {
+			isa = PBXGroup;
+			children = (
+				FA357CF22534912B0010F2F4 /* AppDelegate.swift */,
+				FA357CF42534912B0010F2F4 /* SceneDelegate.swift */,
+				FA357CF62534912B0010F2F4 /* ViewController.swift */,
+				FA357CF82534912B0010F2F4 /* Main.storyboard */,
+				FA357D25253585310010F2F4 /* vk.png */,
+				FA357CFB2534912F0010F2F4 /* Assets.xcassets */,
+				FA357CFD2534912F0010F2F4 /* LaunchScreen.storyboard */,
+				FA357D002534912F0010F2F4 /* Info.plist */,
+				FA357D23253492960010F2F4 /* LoginFormControllerViewController.swift */,
+			);
+			path = VK_client;
+			sourceTree = "<group>";
+		};
+		FA357D08253491300010F2F4 /* VK_clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA357D09253491300010F2F4 /* VK_clientTests.swift */,
+				FA357D0B253491300010F2F4 /* Info.plist */,
+			);
+			path = VK_clientTests;
+			sourceTree = "<group>";
+		};
+		FA357D13253491300010F2F4 /* VK_clientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA357D14253491300010F2F4 /* VK_clientUITests.swift */,
+				FA357D16253491300010F2F4 /* Info.plist */,
+			);
+			path = VK_clientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA357CEE2534912B0010F2F4 /* VK_client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA357D19253491300010F2F4 /* Build configuration list for PBXNativeTarget "VK_client" */;
+			buildPhases = (
+				FA357CEB2534912B0010F2F4 /* Sources */,
+				FA357CEC2534912B0010F2F4 /* Frameworks */,
+				FA357CED2534912B0010F2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VK_client;
+			productName = VK_client;
+			productReference = FA357CEF2534912B0010F2F4 /* VK_client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA357D04253491300010F2F4 /* VK_clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA357D1C253491300010F2F4 /* Build configuration list for PBXNativeTarget "VK_clientTests" */;
+			buildPhases = (
+				FA357D01253491300010F2F4 /* Sources */,
+				FA357D02253491300010F2F4 /* Frameworks */,
+				FA357D03253491300010F2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA357D07253491300010F2F4 /* PBXTargetDependency */,
+			);
+			name = VK_clientTests;
+			productName = VK_clientTests;
+			productReference = FA357D05253491300010F2F4 /* VK_clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA357D0F253491300010F2F4 /* VK_clientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA357D1F253491300010F2F4 /* Build configuration list for PBXNativeTarget "VK_clientUITests" */;
+			buildPhases = (
+				FA357D0C253491300010F2F4 /* Sources */,
+				FA357D0D253491300010F2F4 /* Frameworks */,
+				FA357D0E253491300010F2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA357D12253491300010F2F4 /* PBXTargetDependency */,
+			);
+			name = VK_clientUITests;
+			productName = VK_clientUITests;
+			productReference = FA357D10253491300010F2F4 /* VK_clientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA357CE72534912B0010F2F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Macbook;
+				TargetAttributes = {
+					FA357CEE2534912B0010F2F4 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					FA357D04253491300010F2F4 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = FA357CEE2534912B0010F2F4;
+					};
+					FA357D0F253491300010F2F4 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = FA357CEE2534912B0010F2F4;
+					};
+				};
+			};
+			buildConfigurationList = FA357CEA2534912B0010F2F4 /* Build configuration list for PBXProject "VK_client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA357CE62534912B0010F2F4;
+			productRefGroup = FA357CF02534912B0010F2F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA357CEE2534912B0010F2F4 /* VK_client */,
+				FA357D04253491300010F2F4 /* VK_clientTests */,
+				FA357D0F253491300010F2F4 /* VK_clientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA357CED2534912B0010F2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA357CFF2534912F0010F2F4 /* LaunchScreen.storyboard in Resources */,
+				FA357CFC2534912F0010F2F4 /* Assets.xcassets in Resources */,
+				FA357D26253585310010F2F4 /* vk.png in Resources */,
+				FA357CFA2534912B0010F2F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA357D03253491300010F2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA357D0E253491300010F2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA357CEB2534912B0010F2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA357CF72534912B0010F2F4 /* ViewController.swift in Sources */,
+				FA357CF32534912B0010F2F4 /* AppDelegate.swift in Sources */,
+				FA357D24253492960010F2F4 /* LoginFormControllerViewController.swift in Sources */,
+				FA357CF52534912B0010F2F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA357D01253491300010F2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA357D0A253491300010F2F4 /* VK_clientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA357D0C253491300010F2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA357D15253491300010F2F4 /* VK_clientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA357D07253491300010F2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA357CEE2534912B0010F2F4 /* VK_client */;
+			targetProxy = FA357D06253491300010F2F4 /* PBXContainerItemProxy */;
+		};
+		FA357D12253491300010F2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA357CEE2534912B0010F2F4 /* VK_client */;
+			targetProxy = FA357D11253491300010F2F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA357CF82534912B0010F2F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA357CF92534912B0010F2F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA357CFD2534912F0010F2F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA357CFE2534912F0010F2F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA357D17253491300010F2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA357D18253491300010F2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA357D1A253491300010F2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6F3V759D5;
+				INFOPLIST_FILE = VK_client/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rina.VK-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA357D1B253491300010F2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6F3V759D5;
+				INFOPLIST_FILE = VK_client/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rina.VK-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA357D1D253491300010F2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6F3V759D5;
+				INFOPLIST_FILE = VK_clientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rina.VK-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK_client.app/VK_client";
+			};
+			name = Debug;
+		};
+		FA357D1E253491300010F2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6F3V759D5;
+				INFOPLIST_FILE = VK_clientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rina.VK-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK_client.app/VK_client";
+			};
+			name = Release;
+		};
+		FA357D20253491300010F2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6F3V759D5;
+				INFOPLIST_FILE = VK_clientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rina.VK-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VK_client;
+			};
+			name = Debug;
+		};
+		FA357D21253491300010F2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6F3V759D5;
+				INFOPLIST_FILE = VK_clientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rina.VK-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VK_client;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA357CEA2534912B0010F2F4 /* Build configuration list for PBXProject "VK_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA357D17253491300010F2F4 /* Debug */,
+				FA357D18253491300010F2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA357D19253491300010F2F4 /* Build configuration list for PBXNativeTarget "VK_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA357D1A253491300010F2F4 /* Debug */,
+				FA357D1B253491300010F2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA357D1C253491300010F2F4 /* Build configuration list for PBXNativeTarget "VK_clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA357D1D253491300010F2F4 /* Debug */,
+				FA357D1E253491300010F2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA357D1F253491300010F2F4 /* Build configuration list for PBXNativeTarget "VK_clientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA357D20253491300010F2F4 /* Debug */,
+				FA357D21253491300010F2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA357CE72534912B0010F2F4 /* Project object */;
+}
